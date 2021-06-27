@@ -148,6 +148,7 @@
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+
 @media (max-width: 450px) {
   .hp-cl-sm {
     display: block;
@@ -278,7 +279,7 @@
 .hibatech-logo {
   padding-left: 5px;
   padding-right: 5px;
-  /*margin-bottom: 5px;*/
+  margin-bottom: 5px;
 }
 
 .hibatech-title {
@@ -288,6 +289,9 @@
 
 .hibatech-title h4 {
   margin-bottom: 0px;
+  /*font-size: 30px;
+  font-family: monospace;
+  margin-left: 10px;*/
 }
 
 .navbar-toggle {
@@ -723,4 +727,33 @@ ul {
 
 .hb_hd{
   color: #2a5c1c;
+}
+
+
+
+@media (min-width: 990px) {
+  .hibatech-title h4 {
+    margin-bottom: 0px;
+    font-size: 26px;
+    font-family: monospace;
+    margin-left: 10px;
+
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 989px) {
+  .hibatech-title h4 {
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-family: monospace;
+    margin-left: 10px;
+  }
+
+  .nav-item {
+    font-size: 10px;
+  }
 }
